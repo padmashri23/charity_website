@@ -91,7 +91,7 @@ submitButton.addEventListener("click", function() {
       const user = userCredential.user;
       console.log("Success! Welcome back!");
 
-      location.replace("../index.html");
+      location.replace("index.html");
       // ...
     })
     .catch((error) => {
